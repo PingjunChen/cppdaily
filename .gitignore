@@ -1,5 +1,6 @@
 # Files
 .DS_Store
+Makefile
 daily.pc
 
 # Folders
