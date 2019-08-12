@@ -1,0 +1,9 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+libdir=${prefix}/lib/@CMAKE_LIBRARY_ARCHITECTURE@
+includedir=${prefix}/include/@CMAKE_LIBRARY_ARCHITECTURE@
+
+Name: @PROJECT_NAME@
+Description: CppDaily contains daily used C++ functionalities, to avoid always reinvent wheels. 
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -ldaily
+Cflags: -I${includedir}
