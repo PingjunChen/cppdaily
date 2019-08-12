@@ -12,7 +12,7 @@ target_compile_options(daily PRIVATE -fPIC -fno-rtti -fno-exceptions -Wall)
 
 
 # For testing setting
-option(DAILY_BUILD_TESTS "Build unit tests" OFF)
+option(DAILY_BUILD_TESTS "Build unit tests" ON)
 if (DAILY_BUILD_TESTS)
   add_executable(daily_test daily_test.cc)
   target_link_libraries(daily_test daily)
