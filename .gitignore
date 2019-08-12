@@ -1,12 +1,13 @@
 # Files
 .DS_Store
-Makefile
 daily.pc
+test_daily
 
 # Folders
 
 
 # Cmake
+Makefile
 CMakeCache.txt
 CTestTestfile.cmake
 CMakeFiles
@@ -14,8 +15,6 @@ CMakeScripts
 cmake_install.cmake
 install_manifest.txt
 
-# Prerequisites
-*.d
 
 # Compiled Object files
 *.slo
