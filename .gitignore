@@ -1,3 +1,18 @@
+# Files
+.DS_Store
+daily.pc
+
+# Folders
+
+
+# Cmake
+CMakeCache.txt
+CTestTestfile.cmake
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+install_manifest.txt
+
 # Prerequisites
 *.d
 
