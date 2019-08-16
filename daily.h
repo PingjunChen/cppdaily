@@ -2,6 +2,7 @@
 #define CPPDAILY_DAILY_H_
 
 
+#include <time.h>
 #include <string>
 #include <vector>
 
@@ -13,10 +14,21 @@ namespace daily {
 // ----------------------------------------------------------------------------
 
 template <class T>
-bool in_range(T x, T lower, T upper) {
+bool InRange(T x, T lower, T upper) {
   return (x >= lower && x <= upper);
 }
-    
+
+
+// ----------------------------------------------------------------------------
+// ----------------String
+// ----------------------------------------------------------------------------
+std::string GenerateRandomString(int len);
+
+
+// ----------------------------------------------------------------------------
+// ----------------Time
+// ----------------------------------------------------------------------------
+std::string GetCurrentDateTime();
 
 } // namespace daily
 
