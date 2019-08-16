@@ -7,6 +7,15 @@
 
 
 namespace daily {
+
+// ----------------------------------------------------------------------------
+// ----------------Mathmatics
+// ----------------------------------------------------------------------------
+
+template <class T>
+bool in_range(T x, T lower, T upper) {
+  return (x >= lower && x <= upper);
+}
     
 
 } // namespace daily
